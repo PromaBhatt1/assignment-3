@@ -72,25 +72,25 @@
               </div>
         </nav>
         <!-- slider or carousel -->
-        <div class="carousel my-8 w-full">
+        <div class="container carousel my-8 w-full">
             <!-- slide-1 -->
             <div id="slide1" class="carousel-item relative w-full">
               <img src="./Images/1.png" class="w-full" />
-              <div class="lg: w-[500] h-[100px] p-4 top-[600px] left-[700px] bg-black absolute" >
-                <h1 class="font-extrabold text-2xl text-white">Meet all the heroes from the field</h1>
-                <p class="text-gray-400 font-medium]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
-              </div>
+              
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle">❮</a> 
-                <a href="#slide2" class="btn btn-circle">❯</a>
+                <a href="#slide4" class="btn btn-circle bg-[#131318] text-white border-none">❮</a> 
+                <a href="#slide2" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
               </div>
-            </div> 
+            </div><div class="lg:w-[510px] lg:h-[150px] lg:top-[850px] lg:-translate-y-40 lg:translate-x-[750px] rounded-lg bg-black absolute" >
+              <h1 class="font-extrabold text-2xl text-white px-7 pt-8">Meet all the heroes from the field</h1>
+              <p class="text-gray-400 font-medium px-7 pt-3">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+            </div>
             <!-- slide 2 -->
             <div id="slide2" class="carousel-item relative w-full">
               <img src="./Images/2.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle">❮</a> 
-                <a href="#slide1" class="btn btn-circle">❯</a>
+                <a href="#slide1" class="btn btn-circle bg-[#131318] text-white border-none">❮</a> 
+                <a href="#slide1" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
               </div>
             </div> 
             </div>
@@ -106,7 +106,7 @@
         <!-- radial-progress -->
         <section class="sm: grid grid-cols-1 lg:flex gap-4 my-16">
             <div class="text-center">
-                <div class="radial-progress text-red-600" style="--value:87;" role="progressbar">87%</div>
+                <div class="radial-progress text-red-600" style="--value:85;" role="progressbar">87%</div>
                 <h3 class="font-semibold">Player Facility</h3>
                 <p class="text-[#13131899]"> Our commitment to providing world-class player facilities.</p>
             </div>
@@ -132,7 +132,64 @@
             <p class="font-light text-center text-[#13131899]">Our program lays the foundation for success, ensuring that players emerge not only as skilled<br>athletes but as well-rounded individuals poised for excellence on and off the rink.</p>
         </section>
         <section class="my-20">
+          <!-- card section -->
+          <div class="flex flex-col gap-8 lg:flex-row">
+            <div class="relative space-y-4">
+              <div>
+                <img src="./Images/2.png" alt="">
+              </div>
+              <div>
+                <h2 class="card-title lg:pt-20  text-white text-2xl font-extrabold absolute top-20 lg:top-12 left-10">Junior Program</h2>
+                <p class="text-white w-[300px] lg:w-[400px] absolute top-28 lg:top-40 left-10">The junior program section in hockey serves as the nurturing ground for aspiring athletes, laying the groundwork for their development both on and off the ice.</p>
+                <button class="btn bg-button-primary text-white border-none absolute bottom-6 lg:bottom-8 left-10">Register Now!</button>
+              </div>
+            </div>
+          
+          <!-- card 2 -->
+          <div class="relative">
+            <div>
+              <img src="./Images/3.png" alt="">
+            </div>
+            <div>
+              <h2 class="card-title lg:pt-20  text-white text-2xl font-extrabold absolute top-20 lg:top-12 left-10">Teenager Program</h2>
+              <p class="text-white w-[300px] lg:w-[400px] absolute top-28 lg:top-40 left-10">Recognizing the physical and emotional development, our program focuses on a balance between skill refinement, strategic understanding of the game, and personal growth.</p>
+              <button class="btn bg-button-primary text-white border-none absolute bottom-6 lg:bottom-8 left-10">Register Now!</button>
+            </div>
+          </div>
+          </div>
+          <!-- card 3 -->
+          <div class="relative mt-8">
+            <div>
+              <img src="./Images/4.png" alt="">
+            </div>
+            <div>
+              <h2 class="card-title lg:pt-20  text-white text-2xl font-extrabold absolute top-1 lg:top-20 left-10">Professional Program</h2>
+              <p class="text-white w-[300px] lg:w-[400px] absolute top-8 lg:top-48 left-10">Meticulously crafted to refine skills, enhance strategic acumen,<br>and optimize physical conditioning, this program section<br>serves as the pinnacle of player development. </p>
+              <button class="btn bg-button-primary text-white border-none absolute bottom-2 lg:bottom-16 left-10">Register Now!</button>
+            </div>
+          </div>
           <!-- 1st card section  -->
+          <!-- <div class="card w-96 bg-base-100 shadow-xl image-full">
+            <figure><img class="w-[580px] h-[335px]" src="./Images/2.png" alt="" /></figure>
+            <div class="card-body">
+              <h2 class="card-title text-white text-2xl font-extrabold pt-20">Junior Program</h2>
+              <p class="text-white w-[400px]">The junior program section in hockey serves as the nurturing ground for aspiring athletes, laying the groundwork for their development both on and off the ice.</p>
+              <div class="card-actions justify-start">
+                <button class="btn bg-button-primary text-white border-none">Register Now!</button>
+              </div>
+            </div>
+          </div> -->
+          <!-- 2nd card  -->
+          <!-- <div class="card w-96 bg-base-100 shadow-xl image-full">
+            <figure><img src="./Images/3.png" alt="" /></figure>
+            <div class="card-body">
+              <h2 class="card-title text-white text-2xl font-extrabold pt-20">Teenager Program</h2>
+              <p class="text-white w-[400px]">Recognizing the physical and emotional development, our program focuses on a balance between skill refinement, strategic understanding of the game, and personal growth.</p>
+              <div class="card-actions justify-start">
+                <button class="btn bg-button-primary text-white border-none">Register Now!</button>
+              </div>
+            </div>
+          </div> -->
           <!-- <div class="">
             <div class="sm: grid-cols-1 lg: flex">
               <div class="relative">
